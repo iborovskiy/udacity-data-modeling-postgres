@@ -46,7 +46,9 @@ The following file is required for correct execution of the scripts above:
 
 For correct functioning of ETL pipeline you must create two subdirectories in database working directory:
 - **data\\song_data** - collection of data files in JSON format that contain metadata about a song and the artist of that song
+![Example of the metadata in a song file](/img/song-data.png "Example of the metadata in a song file")
 - **data\\log_data** - collection of data files in JSON format that contain activity logs from a msuic streaming app
+![Example of the data in a log file](/img/log-data.png "Example of the data in a log file")
 
 Following Jupyter notebooks is not part of the project and included for testing purposes:
 - **test.ipynb** - displays the first few rows of each table to let you check your database
