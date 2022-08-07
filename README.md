@@ -14,7 +14,7 @@ The goal of this project is to create a Postgres database with tables designed t
 In this project, the following data modeling tasks were completed:
 1. Defining database schema design (star schema)
 2. Defining dimension and fact tables for selected database design
-3. Building ETL pipeline that transfers data from original data files into Postgres DB tables.
+3. Building ETL pipeline that transfers data from original data files into Postgres DB tables
 
 
 ### Details of database schema design and ETL pipeline
@@ -37,11 +37,11 @@ _Dimension tables (categorize facts and measures to answer a business questions)
 
 
 ### Instructions for running the Python scripts
-Run following scripts in installed python interpreter:
+Run the following scripts in installed python interpreter:
 - **create_tables.py** for creating database tables. You must run this script to reset your tables before each time you run ETL script.
 - **etl.py** for executing ETL pipeline logic.
 
-Following script required for correct execution of the scripts:
+The following file is required for correct execution of the scripts above:
 - **sql_queries.py** - contains all sql queries, and is imported into the files above.
 
 For correct functioning of ETL pipeline you must create two subdirectories in database working directory:
